@@ -1,7 +1,21 @@
 Changelog
 =========
 
-This change log is managed by `scripts/cmds/update-versions` but may be manually updated.
+This change log is managed by `{
+  "build": {
+    "production": {
+      "env": {
+        "APP_ENV": "production"
+      }
+    },
+    "development": {
+      "env": {
+        "APP_ENV": "development"
+      }
+    }
+  }
+}
+scripts/cmds/update-versions` but may be manually updated.
 
 ethers/v5.0.0-beta.192 (2020-06-12 04:51)
 -----------------------------------------
